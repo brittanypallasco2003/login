@@ -2,8 +2,8 @@ import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
-import {ScrollView, StyleSheet, Text, useColorScheme, View} from 'react-native';
-import { DefaultTheme,PaperProvider } from 'react-native-paper'
+import {StyleSheet, Text, View} from 'react-native';
+import { PaperProvider } from 'react-native-paper'
 import Login from './views/Login';
 import RecuperarContraseña from './views/RecuperarContraseña';
 
